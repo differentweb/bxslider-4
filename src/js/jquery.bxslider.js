@@ -469,6 +469,9 @@
       return slidesShowing;
     };
 
+    el.getNumberSlidesShowing = function(){ return getNumberSlidesShowing() };
+
+
     /**
      * Returns the number of pages (one full viewport of slides is one "page")
      */
